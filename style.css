@@ -66,3 +66,12 @@ footer{
     justify-content: center;
 
 }
+
+@media only screen and (max-width:600px){
+    .display{
+        max-width: 400px;
+    }
+    #container{
+        max-width: 400px;
+    }
+}

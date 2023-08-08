@@ -75,3 +75,18 @@ footer{
         max-width: 400px;
     }
 }
+    @media only screen and (max-width: 600px) {
+        .display,
+        #container {
+            max-width: 400px;
+            margin: 6%; /* Adjust margins for small screens */
+        }
+        
+        #container button img {
+            margin-right: 0px;
+        }
+    
+        body {
+            background: #fff;
+        }
+    }
